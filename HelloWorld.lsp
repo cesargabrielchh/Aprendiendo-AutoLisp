@@ -1,4 +1,4 @@
-(defun c:HelloWorld (/ msg)
-    (setq message "Hello world!")
-    (command "prompt" message)
+(defun c:HelloWorld ()
+    (princ "\nHello World!")
+    (princ) ;
 )
